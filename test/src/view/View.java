@@ -30,7 +30,7 @@ public class View extends JFrame{
         pn1 = new Panel(new GridLayout(5, 2));
         lb1  = new Label("Ten Dang Nhap: ");
 //        init();
-        validate();
+        validate(); 
     }
     public static void main(String[] args) {
         new View().repaint();
