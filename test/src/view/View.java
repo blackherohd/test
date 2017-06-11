@@ -26,9 +26,10 @@ public class View extends JFrame{
         setLocationRelativeTo(null);
         setResizable(true);
         setVisible(true);
-        setLayout(null);
+//        setLayout(null);
         pn1 = new Panel(new GridLayout(5, 2));
         lb1  = new Label("Ten Dang Nhap: ");
+        
 //        init();
         validate();
     }
