@@ -10,5 +10,11 @@ package hiep;
  * @author hoang_000
  */
 public class hip {
+
+    public hip() {
+    }
+    
+    
+    
     
 }
