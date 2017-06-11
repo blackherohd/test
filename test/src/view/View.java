@@ -5,6 +5,10 @@
  */
 package view;
 
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
+import java.awt.Label;
+import java.awt.Panel;
 import javax.swing.JFrame;
 
 /**
@@ -13,6 +17,8 @@ import javax.swing.JFrame;
  */
 public class View extends JFrame{
     public static final int WIDTH=600, HEIGHT=300;
+    public Panel pn1 ;
+    public Label lb1;
     public View(){
         setTitle("Login");
         setSize(WIDTH, HEIGHT);
@@ -21,6 +27,8 @@ public class View extends JFrame{
         setResizable(true);
         setVisible(true);
         setLayout(null);
+        pn1 = new Panel(new GridLayout(5, 2));
+        lb1  = new Label("Ten Dang Nhap: ");
 //        init();
         validate();
     }
